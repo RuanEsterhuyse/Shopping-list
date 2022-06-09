@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>shopping-list</title>
+</head>
+<body>
+    <div id ="wrapper">
+        <!-- section-1 -->
+        <header>
+            <div id ="page-top">
+                <h1 class ="title">Shopping List</h1>
+                <p>My shopping list</p>
+                <! --Search and show/hide functionality-->
+                <form id ="search-item">
+                    <input type="text" placeholder="search items...">
+                    <div id="check">
+                        <label for="hide">Hide List</label>
+                         <input type="checkbox" id ="hide">
+                    </div>
+                 </form>
+            </div>
+        </header>
+        <!-- section-2 -->
+        <form id ="add-item">
+           <input type="text" placeholder="What do you want to buy?">
+           <button>Add</button>
+        </form>
+        <!-- section-3 -->
+        <div id="grocery-list">
+            <h2 class="title">Items to buy</h2>
+            <ul>
+                <li>
+                    <span class="item">Milk</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Bread</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Fruit</span>
+                    <span class="delete">Delete</span>
+                </li>
+                <li>
+                    <span class="item">Vegetables</span>
+                    <span class="delete">Delete</span>
+                </li>
+            </ul>
+        </div>
+            
+    </div>
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
