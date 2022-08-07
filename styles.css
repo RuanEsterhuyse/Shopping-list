@@ -84,32 +84,75 @@ h1,h2 {
     border-radius: 0 2px 2px 0;
 }
 
-#grocery-list ul{
-    list-style: none;
-    padding:0;
-  
+#grocery-list,
+#tabbed-content {
+    margin: 2em;
 }
 
-#grocery-list li{
-    padding:1em;
-    border-left: 5px solid rgb(211,211,211);
-    margin:1.5em 1em;
+#grocery-list ul,
+#tabbed-content ul {
+    /* remove bullet point */
+    list-style-type: none;
+    /* remove default padding */
+    padding: 0;
 }
 
-#grocery-list li:hover{
-    border-color:#da4343;
+#grocery-list li {
+    padding: 1em;
+    border-left: 5px solid rgb(211, 211, 211);
+    margin: 1.5em 1em;
 }
 
-.delete{
-    float:right;
-    background-color: #da4343;
-    padding:7px;
-    border-radius:4px;
-    cursor:pointer;
-    color:white;
+#grocery-list li:hover {
+    border-color: #da4343;
 }
 
-.delete:hover{
-    background: rgb(20,20,20);
+.delete {
+    float: right;
+    background: #da4343;
+    padding: 7px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
 }
 
+.delete:hover {
+    background: rgb(20, 20, 20);
+}
+
+/* **** style our tabs at the bottom of our page  */
+#tab-wrapper ul li:hover {
+    background: #da4343;
+    color: white; 
+}
+
+#tab-wrapper li {
+    display: inline-block;
+    padding: .8em 1.3em;
+    background: #ddd;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#tab-wrapper .panel {
+    display: none;
+    margin: 0em 2em;
+    border: 1px solid #ddd;
+    padding: 0 1em;
+    border-radius: 3px;
+}
+#tab-wrapper .panel.active {
+    display: block;
+}
+
+#tab-wrapper .selected {
+    background-color: rgb(139, 139, 139);;
+}
+
+/* style our answer */
+.show {
+    background: rgb(255, 255, 149);
+    width: 100px;
+    padding: 10px;
+    border: 1px solid yellow;
+}

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
     <title>shopping-list</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
         <!-- section-3 -->
         <div id="grocery-list">
             <h2 class="title">Items to buy</h2>
-            <ul>
+            <ul id="parent">
                 <li>
                     <span class="item">Milk</span>
                     <span class="delete">Delete</span>
@@ -51,10 +52,25 @@
                 </li>
             </ul>
         </div>
-            
+            <!-- Section 4 - Adding Tabs -->
+            <div id="tab-wrapper">
+                <ul class="heading">
+                    <li data-clicked ='#joke' class ="active">Food Joke</li>
+                    <li data-clicked ="#facts">Did you know</li>
+                </ul>
+                <div id="joke" class="panel">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptates?</p>
+              <button id="showAnswer">Answer</button>
+              <p id="answer"></p>
+                </div>
+                <div id="facts" class="panel">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo deleniti nostrum, similique tenetur quae tempore expedita odio beatae magnam optio?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quos nulla corporis facere reiciendis delectus facilis fugiat ea officia esse.</p>
+                </div>
+            </div>
     </div>
     
 
-    <script src="index.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
