@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](/img/shopping-list.png.png)
+![](../img/shopping-list.png)
 
 ### Built with:
 
