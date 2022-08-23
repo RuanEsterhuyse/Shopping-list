@@ -138,10 +138,11 @@ h1,h2 {
     background: rgb(20, 20, 20);
 }
 
-/* **** style our tabs at the bottom of our page  */
+
 #tab-wrapper ul li:hover {
     background: #da4343;
     color: white; 
+    margin-right: 10px;
 }
 
 #tab-wrapper li {
@@ -164,13 +165,17 @@ h1,h2 {
 }
 
 #tab-wrapper .selected {
-    background-color: rgb(139, 139, 139);;
+    background-color: rgb(139, 139, 139);
 }
 
-/* style our answer */
+
 .show {
     background: rgb(255, 255, 149);
     width: 100px;
     padding: 10px;
     border: 1px solid yellow;
+}
+
+.heading{
+    margin-left:3rem;
 }
