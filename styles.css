@@ -31,15 +31,18 @@ h1,h2 {
     width: 90%;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 5px rgba(117, 105, 105, 0.5);
     padding: 0 0 20px;
     /* overflow: hidden; */
     border: 1px solid rgba(211, 211, 211, 0.877);
+    border-radius:40px;
 }
 
 #page-top {
-    background: rgb(107, 230, 114);
+    background: rgb(94, 156, 180);
     padding: 10px 0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     
 }
 
@@ -95,8 +98,8 @@ h1,h2 {
     cursor: pointer;
     color: white;
     padding: 0.5em 20px;
-    border: 1px solid #00ff6a;
-    background: #32c77d;
+    border: 1px solid rgb(94, 156, 180);
+    background: rgb(94, 156, 180);
     font-size: 1em;
     margin: 20px 0px 0px 0;
     border-radius: 0 2px 2px 0;
