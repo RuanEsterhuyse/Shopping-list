@@ -20,11 +20,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  
+    font-family: 'Aboreto', cursive;
+   
 }
 
 .title {
-    font-family: 'Alumni Sans Collegiate One', sans-serif;
+    font-family: 'Aboreto', cursive;
 }
 h1,h2 {
     /* remove bold  */
