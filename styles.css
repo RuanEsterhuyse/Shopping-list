@@ -20,14 +20,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  
+}
+
+.title {
     font-family: 'Alumni Sans Collegiate One', sans-serif;
 }
 h1,h2 {
     /* remove bold  */
     font-weight: normal;
 }
-
-
 
 #wrapper {
     width: 90%;
