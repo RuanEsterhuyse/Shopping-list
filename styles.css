@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shadows+Into+Light&display=swap');
 *,
 ::before,
 ::after {
@@ -20,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Aboreto', cursive;
+    font-family: 'Roboto', sans-serif;
    
 }
 
