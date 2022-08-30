@@ -187,3 +187,8 @@ h1,h2 {
 .heading{
     margin-left:3rem;
 }
+
+#showAnswer{
+    padding:10px;
+    border-radius:5px;
+}
