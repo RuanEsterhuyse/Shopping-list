@@ -179,9 +179,10 @@ h1,h2 {
 
 .show {
     background: rgb(255, 255, 149);
-    width: 100px;
+    width: 38%;
     padding: 10px;
     border: 1px solid yellow;
+    
 }
 
 .heading{
@@ -192,3 +193,4 @@ h1,h2 {
     padding:10px;
     border-radius:5px;
 }
+
