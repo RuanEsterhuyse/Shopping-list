@@ -178,10 +178,10 @@ h1,h2 {
 
 
 .show {
-    background: rgb(94, 156, 180);
-    width: 100%;
+    background: rgba(221, 221, 221, 0.712);
+    width: 25%;
     padding: 10px;
-    border: 1px solid rgb(94, 156, 180);
+    border: 1px solid rgb(139, 139, 139);
     
 }
 
