@@ -120,15 +120,11 @@ let answerButton = document.getElementById('showAnswer');
 answerButton.addEventListener('click', answer);
 
 function answer(e) {
-    document.getElementById('answer').classList.add('show');
+    document.getElementById('answer').classList.toggle('show');
     document.getElementById('answer').textContent = "Lorem, ipsum dolor";
     answerButton.style.display = 'none';
+
+
 };
 
 
-let back = document.getElementById("back");
-back.addEventListener("click", goBack);
-
-function goBack(){
-    answerButton.style.display = 'block';
-}
